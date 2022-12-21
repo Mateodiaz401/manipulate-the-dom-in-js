@@ -1,18 +1,18 @@
 # _Manipulando el dom en javascript_
 
-## selector por id
+## Selector por id
 
 ```sh
 getElementById
 ```
 
-### ✨Ejemplo✨
+-   ✨Ejemplo✨
 
 ```sh
  console.log(doument.getElementById('header'))
 ```
 
-## selector por clase
+## Selector por clase
 
 ```sh
 getElementsByClassName
@@ -24,7 +24,7 @@ getElementsByClassName
 console.log(doument.getElementsByClassName('border-grey'))
 ```
 
-## selector por nombre de Etiqueta
+## Selector por nombre de Etiqueta
 
 ```sh
 getElementsByTagName
@@ -36,7 +36,7 @@ getElementsByTagName
 console.log(doument.getElementsByTagName('ul'))
 ```
 
-## selector selector por nombre
+## Selector selector por nombre
 
 ```sh
 getElementsByName
@@ -46,4 +46,28 @@ getElementsByName
 
 ```sh
 console.log(doument.getElementsByName('cabecera'))
+```
+
+## Selector queryselector
+
+```sh
+querySelector
+```
+
+-   ✨Ejemplo✨
+
+```sh
+ console.log(doument.querySelector('header'))
+```
+
+## Selector querySelectorAll
+
+```sh
+querySelectorAll
+```
+
+-   ✨Ejemplo✨
+
+```sh
+ console.log(doument.querySelectorAll('header'))
 ```
